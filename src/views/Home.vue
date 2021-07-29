@@ -1,5 +1,5 @@
 <template>
-  <div class="home">Meck health</div>
+  <div class="">Meck health</div>
 </template>
 
 <script>
