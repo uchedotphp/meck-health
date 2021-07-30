@@ -1,5 +1,5 @@
 <template>
-  <button @click="showToast(data.id)" class="card px-4 py-3 w-100">
+  <button @dblclick="showToast(data.id)" class="card px-4 py-3 w-100">
     <div class="d-flex align-items-center">
       <img
         :src="require(`@/assets/imgs/${data.img}`)"
