@@ -1,5 +1,5 @@
 <template>
-  <div class="fixed-bottom px-5">
+  <div class="fixed-bottom px-5 bg-white">
     <nav class="row text-uppercase">
       <router-link
         :to="{ name: 'Home' }"
@@ -43,7 +43,7 @@ export default {
 <style lang="scss" scoped>
 a {
   text-decoration: none;
-  font-size: 0.5rem;
+  font-size: 0.6rem;
   margin: 0 1.8rem;
   color: rgba(152, 152, 152, 0.35);
 }
